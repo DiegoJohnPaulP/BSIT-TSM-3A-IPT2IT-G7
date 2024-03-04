@@ -1,0 +1,13 @@
+h1{
+    font-family: Arial Rounded MT Bold;
+    font-size: 33px;
+    color: #217544;
+    float: left;
+    margin: 50px 0px 15px 700px;
+    
+    
+}
+.google{
+  transition: width 2s, height 4s;
+  color: #7e0a0a;
+}

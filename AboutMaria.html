@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maria</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+    }
+
+    html {
+        box-sizing: border-box;
+    }
+
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
+
+    .column {
+        float: left;
+        width: 33.3%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin: 8px;
+    }
+
+
+    .about-section {
+        padding: 200px;
+        text-align: center;
+        background-color: #474e5d;
+        background-image: url(MARIAA.jpg);
+        background-position: 40%;
+        font-size: 150%;
+        color: rgb(255, 255, 255);
+        p.outset {
+    border-style: outset;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease; /* Smooth transition effect for the background color change */
+}
+
+    p.outset:hover {
+    background-color: rgba(0, 0, 0, 1); /* Change to full opacity on hover */
+}
+    }
+
+    .container {
+        padding: 0 16px;
+    }
+
+    .container::after, .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .title {
+        color: grey;
+    }
+
+    .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #514fc4;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .button:hover {
+        background-color: #dababa;
+    }
+
+    @media screen and (max-width: 650px) {
+        .column {
+            width: 100%;
+            display: block;
+        }
+    }
+</style>
+<body>
+    <div class="about-section">
+        <h1>About <Menu></Menu></h1>
+        <p class="outset">Every person may feel that they have no purpose in life but finding out who you are just takes the time of sitting down and thinking of the importance in your life. I want you to remember me, I am Maria Yzabella Ghryz Arellano, Lives in Pura, Tarlac. My date of birth is on August 08 2003, 20 years old,  I am now 3rd year students in Tarlac State University studying Information Technology. I'm aware of the benefits of securing an opportunity to pursue learning in university,
+             in short I believe that the education will equip me with skills that will further my career goals.
+            </p>
+        <p class="outset">We all know that college is a thing worth waiting for not just because you'll be free from your parents but because 
+            you will able to manage and learn to live an independent life. Always keeping myself motivated in all things because this was my first step in the ladder of success.</p>
+      </div>
+      
+      <h2 style="text-align:center">My Hobby is Travelling</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="https://i0.wp.com/danielsecotravels.com/wp-content/uploads/2020/03/25587219_1542773955818184_6300416148663775880_o.jpg?w=750&ssl=1" alt="Canding Falls" style="width:100%">
+            <div class="container">
+              <h2>Falls</h2>
+              <p class="title">Canding Falls</p>
+              <p> The drive from Camiling, Tarlac to Canding Falls, San Clemente, Tarlac, which is northwest in its 
+                geographical location, has been the most picturesque I have ever seen in my province!!</p>
+              <p> The paved road became hilly and curvy with the beautiful Sierra Madre mountains at a distance. Had I not been driving, 
+                I would have taken more pictures of beautiful vistas without having to pull over.</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="https://i2.wp.com/www.projectlupad.com/wp-content/uploads/2017/07/Hundred-Islands-Philippines-Aerial-Tour-Project-LUPAD-JPG.jpeg?fit=3360%2C1634&ssl=1" alt="" style="width:100%">
+            <div class="container">
+              <h2>Beach</h2>
+              <p class="title">Hundred Island</p>
+              <p>The Hundred Islands National Park 
+                is the first Philippine national park and a protected area located in Alaminos, Pangasinan.</p>
+              <p>Great day trip with lots of beautiful and quiet spots to chill. 
+                Make sure you book with a good boat / tour agency so that you can stop when you want to.</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="https://th.bing.com/th/id/OIP.5QnwUGszdcaQ5sHQeA9-awHaE6?rs=1&pid=ImgDetMain" alt="" style="width:100%">
+            <div class="container">
+              <h2>Baguio city</h2>
+              <p class="title">Baguio city</p>
+              <p>Baguio, perched high in the Cordillera Central Mountains, is a great place to escape the heat of the Philippine lowlands. Camp John Hay, originally built as a recreation area for U.S. soldiers, now is a full-fledged resort complete with a world-class golf course. </p>
+              <p>Definitely stop at the city market, where you can buy almost anything (just be prepared to haggle).</p>
+              <form action="MARIA.html" method="get" target="_blank" >
+              <p><button  class="button">BACK</button></p></form>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>

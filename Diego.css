@@ -28,7 +28,7 @@ p{
     font-size: 120%;
 }
 .Hobbies{
-  width:"100%" ;
+  width:"50%" ;
   vertical-align: top;
   align-items: "center"; 
   background-color: "brown";
@@ -36,7 +36,7 @@ p{
 
 table {
   margin: 0  auto;
-  background-image: url("https://64.media.tumblr.com/0639046b1001da12490c1f26f09ab36b/89a170f3eaab9025-69/s400x600/bd3eb129da223164357eb590eb045473a8db0632.gifv");
+  background-image: url("https://i.pinimg.com/originals/13/e4/dc/13e4dcfc9b0456501742eae0b4f8b38d.gif");
   width: 90% ;
   height: 150%;
   background-repeat: center;
@@ -159,9 +159,14 @@ hr{
 .slides::-webkit-scrollbar {
   display: none;
 }
-.aboutme{
+.aboutme {
   font-family: 'Times New Roman', Times, serif;
-  font-size: larger;
-  color: rgb(0, 0, 0);
+  font-size: 130%;
+  color: rgb(255, 255, 255);
   font-weight: bold;
+  transition: transform 0.3s ease-in-out;
+}
+
+.aboutme:hover {
+  transform: translateX(30px); 
 }
